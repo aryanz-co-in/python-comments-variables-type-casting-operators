@@ -12,7 +12,7 @@ Python Bitwise Operators
 ------------------------------------------------------------
 """
 
-print(bin(0))  # To find the binary value use bin(value)
+print(bin(90))  # To find the binary value use bin(value)
 
 x = 90            # 90 = 0101 1010
 y = 12            # 12 = 0000 1100
@@ -31,8 +31,8 @@ z = 0             # 0  = 0000 0000
 # ------------------
 # z =  8 = 0000 1000
 z = x & y        # 8 = 0000 1000
-print(bin(z))
-print("Bitwise AND - Value of c is ", z)
+#  print(bin(z))
+print("Bitwise AND - Value of z is ", z)
 
 # OR Table
 # |--X---|---Y---|---Z---|
@@ -47,19 +47,25 @@ print("Bitwise AND - Value of c is ", z)
 # ------------------
 # z = 94 = 0101 1110
 z = x | y        # 94 = 0101 1110
-print(bin(z))
-print("Bitwise OR - Value of c is ", z)
+#  print(bin(z))
+print("Bitwise OR -         Value of z is ", z)
 
-z = ~x           # -61 = 1100 0011
-print("Bitwise NAND - Value of c is ", z)
+# x = 90 = 0101 1010
+# ~x = -91 = 0101 1011
+z = ~x           # -91 = 0101 1011
+#  print(bin(z))
+print("Bitwise NAND -       Value of z is ", z)
 
-z = x ^ y        # 49 = 0011 0001
-print("Bitwise XOR - Value of c is ", z)
+z = x ^ y        # 86 = 0101 0110
+#  print(bin(z))
+print("Bitwise XOR -        Value of z is ", z)
 
-z = x >> 2       # 15 = 0000 1111
-print("Bitwise right shift Value of c is ", z)
+z = x >> 2       # 22 = 0001 0110
+#  print(bin(z))
+print("Bitwise right shift  Value of z is ", z)
 
-z = x << 2       # 240 = 1111 0000
-print("Bitwise Left shift Value of c is ", z)
+z = x << 2       # 360 = 0001 0110 1000
+#  print(bin(z))
+print("Bitwise Left shift   Value of z is ", z)
 
 
