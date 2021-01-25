@@ -2,12 +2,12 @@
 
 # Single line comment
 
-print("End of line comment, which will ignore anything after # and treat is as comment")  # This is End of line comment
+print("End of line comment, which will ignore anything after # and treat is as comment \n\n")  # This is End of line comment
 
 # This
 #  is
 #    Multi line comments
-print("Multi line comment is nothing but using the # to be prefixed at start of the line.")
+print("Multi line comment is nothing but using the # to be prefixed at start of the line.\n\n")
 
 """
 Well this
@@ -21,7 +21,7 @@ Let's see it by assigning a variable and print the variable
 to see what will happen. 
 """
 
-print(f"Lets print the multiline string")
+# print(f"Lets print the multiline string \n {s1}")
 
 
 x = 4
