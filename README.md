@@ -13,6 +13,7 @@ This project contains demo code and example for the following topics.
 2. Variables 
    1. Assign multiple values to variable
    2. Local & Global variables 
+   3. Assign None - nullify variable
 3. Type cast
    1. Casting to int
    2. Casting to float
