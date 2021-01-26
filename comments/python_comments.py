@@ -2,7 +2,7 @@
 
 # Single line comment
 
-print("End of line comment, which will ignore anything after # and treat is as comment \n\n")  # This is End of line comment
+print("End of line comment, which will ignore anything after # and treat is as comment \n\n")   # End of line comments
 
 # This
 #  is
