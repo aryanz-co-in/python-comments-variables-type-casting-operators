@@ -1,0 +1,1 @@
+{"id": 2345, "city": "Chennai", "weather": "20", "unit": "Celsius"}
