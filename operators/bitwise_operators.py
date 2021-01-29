@@ -1,15 +1,15 @@
 """
 Python Bitwise Operators
-------------------------------------------------------------
-|   Operator        |   Example     |   Operator name      |
-|-------------------|---------------|----------------------|
-|       &           |   x = x & y   |  Bitwise AND         |
-|       |           |   x = x | y   |  Bitwise OR          |
-|       ~           |   x = x ~ y   |  Bitwise NAND        |
-|       ^           |   x = x ^ y   |  Bitwise XOR         |
-|       >>          |   x = x>>y    |  Bitwise right shift |
-|       <<          |   x = x<<y    |  Bitwise left shift  |
-------------------------------------------------------------
+-----------------------------------------------------------------
+|   Operator        |   Example     |   Operator name           |
+|-------------------|---------------|---------------------------|
+|       &           |   x = x & y   |  Bitwise AND              |
+|       |           |   x = x | y   |  Bitwise OR               |
+|       ~           |   x = x ~ y   |  Binary Ones Complement   |
+|       ^           |   x = x ^ y   |  Bitwise XOR              |
+|       >>          |   x = x>>y    |  Bitwise right shift      |
+|       <<          |   x = x<<y    |  Bitwise left shift       |
+-----------------------------------------------------------------
 """
 
 print(bin(90))  # To find the binary value use bin(value)
@@ -48,24 +48,24 @@ print("Bitwise AND - Value of z is ", z)
 # z = 94 = 0101 1110
 z = x | y        # 94 = 0101 1110
 #  print(bin(z))
-print("Bitwise OR -         Value of z is ", z)
+print("Bitwise OR -                  Value of z is ", z)
 
 # x = 90 = 0101 1010
 # ~x = -91 = 0101 1011
 z = ~x           # -91 = 0101 1011
 #  print(bin(z))
-print("Bitwise NAND -       Value of z is ", z)
+print("Binary Ones Complement -      Value of z is ", z)
 
 z = x ^ y        # 86 = 0101 0110
 #  print(bin(z))
-print("Bitwise XOR -        Value of z is ", z)
+print("Bitwise XOR -                 Value of z is ", z)
 
 z = x >> 2       # 22 = 0001 0110
 #  print(bin(z))
-print("Bitwise right shift  Value of z is ", z)
+print("Bitwise right shift           Value of z is ", z)
 
 z = x << 2       # 360 = 0001 0110 1000
 #  print(bin(z))
-print("Bitwise Left shift   Value of z is ", z)
+print("Bitwise Left shift            Value of z is ", z)
 
 
