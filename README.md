@@ -19,10 +19,13 @@ This project contains demo code and example for the following topics.
    2. Casting to float
    3. Casting to str
 4. Operators
-    1. Arithmetic operators
-    2. bitwise operators
-    3. assignment operators
-    4. Relational operators 
+   1. Arithmetic Operators
+   2. Comparison (Relational) Operators
+   3. Assignment Operators
+   4. Logical Operators
+   5. Bitwise Operators
+   6. Membership Operators
+   7. Identity Operators
 
 ---------------------------------------------
 
@@ -134,7 +137,7 @@ Variables, a placeholder or container or a memory location to store values of an
 3. It does not need to be declared with any particular type.
 4. Type can be changed at any time, after they have been initialised at the beginning. (x = 5, after few line of code assign x = “Hello”, it is possible in Python)
 5. Before assigning values to variables, it can be type cast to specific type. (x = str(4))
-6. Most importantly variables are case sensitive.(Msg = “Hello” and msg = “Hello” both are different variables)
+6. Most importantly variables are case-sensitive.(Msg = “Hello” and msg = “Hello” both are different variables)
 
 
 ---------------------------------------------
