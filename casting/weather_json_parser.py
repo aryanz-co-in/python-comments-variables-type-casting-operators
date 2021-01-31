@@ -7,7 +7,7 @@ weathers = []  # declaring empty list
 weather_value = None # Will be using this variable to store the type casted value
 
 print("Started Reading JSON file")
-with open('weather.txt') as f:  # Reading file
+with open('weather.json') as f:  # Reading file
     for jsonObj in f:   # reading lines from the file
         weather = json.loads(jsonObj)   # parsing and storing the line
         weathers.append(weather)    # adding the line to the list
@@ -20,5 +20,11 @@ for weather in weathers:    # Traversing through the list
     # print(weather["id"], weather["city"], weather["weather"], weather["unit"])
 
 
-print(weather_value)
+print(f"{weather_value}° C")
 print(type(weather_value))
+
+
+fahrenheit = (weather_value * 9/5) + 32
+
+print(f"Fahrenheit {fahrenheit}")
+
